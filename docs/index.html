@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMSC-Rosetta: The Practical Subtitle Format</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+    header { background: #005a9c; color: #fff; padding: 2em 1em; text-align: center; }
+    main { padding: 1em 2em; max-width: 800px; margin: auto; }
+    section { margin-bottom: 2em; }
+    h1, h2 { color: #005a9c; }
+    ul { list-style-type: disc; margin-left: 1.5em; }
+    footer { background: #f2f2f2; padding: 1em 2em; text-align: center; font-size: 0.9em; }
+    a { color: #005a9c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IMSC-Rosetta: A Practical Subtitle Format</h1>
+    <p>Streamlined, interoperable, and translation-ready subtitling across platforms</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>What Is IMSC-Rosetta?</h2>
+      <p>
+        <strong>IMSC-Rosetta</strong> is a standardized subtitle file format built atop IMSC <a href="https://www.w3.org/TR/ttml-imsc1.2/" target="_blank">(a TTML-based profile)</a>, designed for simplicity, clarity, and broad compatibility.
+      </p>
+      <p>
+        It maintains rich styling (colors, outlines, positioning), while simplifying TTML's typical complexity—making it ideal for parsing, creation, and modification without deep TTML knowledge.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key Advantages</h2>
+      <ul>
+        <li><strong>Consistent, high-quality subtitles:</strong> Ideal for multilingual and multi-channel delivery.</li>
+        <li><strong>Streamlined structure:</strong> Reduces the complexity of XML/TTML and boosts implementability.</li>
+        <li><strong>Full feature support:</strong> Preserves styles like color, layout, boxing, and directionality for Japanese vertical subtitles.</li>
+        <li><strong>Interoperability:</strong> Supports reversible conversion to proprietary formats used in broadcasting with minimal feature loss.</li>
+        <li><strong>Flexible usage:</strong> Fits authoring, delivery, storage, archival, and translation workflows.</li>
+        <li><strong>Industry-backed:</strong> Developed with contributions from Yella Umbrella, WBD, BBC Studios, Ooona, Deluxe, and others.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Format & Tooling Support</h2>
+      <p>
+        IMSC-Rosetta files are XML-based TTML files (extensions .imscr or .xml) and supported by tools like <a href="https://yellaumbrella.com/the-stellar-suite/" target="_blank">Stellar Suite</a>, Ooona and EZTitles for import/export, including advanced features such as ruby text, vertical Japanese, horizontal groups, and SDH styling.
+      </p>
+      <p>
+        The majority of subtitle vendors can reliably create IMSC-Rosetta files.
+      </p>
+    </section>
+
+    <section>
+      <h2>Get Involved</h2>
+      <p>
+        The full specification, sample files, and contributor resources are hosted on <a href="https://github.com/imsc-rosetta/imsc-rosetta-specification" target="_blank">GitHub</a>. The project invites feedback, issue reports, and contributions.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Learn more at the <a href="https://github.com/imsc-rosetta/imsc-rosetta-specification" target="_blank">IMSC-Rosetta GitHub</a>.
+    </p>
+    <p>&copy; Industry-wide collaboration for better subtitling workflows.</p>
+  </footer>
+</body>
+</html>
